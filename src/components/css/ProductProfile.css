@@ -1,0 +1,38 @@
+.product {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  max-width: 600px; /* Adjust the max-width to make the rows shorter */
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-detail {
+  text-align: left;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.25em;
+  color:green;
+}
+
+.product-detail p {
+  margin: 5px 0;
+}
