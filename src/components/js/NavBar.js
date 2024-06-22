@@ -23,10 +23,7 @@ const Navbar = () => {
               <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href="/authenticate">Log in</a>
-            </li>
-            <li>
-              <a href="/authenticate">Sign Up</a>
+              <a href="/register">Sign Up</a>
             </li>
           </ul>
         </div>

@@ -1,25 +1,30 @@
 .product {
   border: 1px solid #ccc;
   border-radius: 8px;
+  border-right: 10px;
   padding: 10px;
   margin: 10px 0;
-  max-width: 600px; /* Adjust the max-width to make the rows shorter */
+  max-width: 600px;
 }
 
+
 .product-image {
-  max-width: 100%;
+  max-width: 400%;
   height: auto;
-  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
+
 
 .product-detail {
   text-align: left;
 }
 
 .product-header {
+  margin-left:250px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
 }
 
 .product-name {
@@ -34,5 +39,13 @@
 }
 
 .product-detail p {
-  margin: 5px 0;
+  margin-left:350px;
+}
+
+.product-detail .btn {
+  width: 100px;
+  margin-left: 350px;
+  margin-top: 10px;
+  padding: 5px 10px; /* Adjust padding to make the button smaller */
+  font-size: 0.875em; /* Adjust font size to make the button smaller */
 }

@@ -43,3 +43,7 @@ header {
   margin: 0;
   padding: 5px 0;
 }
+
+.cart-container {
+  margin-top: 30px; /* Add some space above the cart */
+}

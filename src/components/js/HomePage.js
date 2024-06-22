@@ -10,6 +10,9 @@ const HomePage = () => {
       <div className="container">
         <ProductList />
       </div>
+      <div className="cart-container">
+        <Cart />
+      </div>
     </div>
   );
 };
